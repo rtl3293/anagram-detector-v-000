@@ -6,12 +6,13 @@ attr_accessor :word
   end
 
   def match(word_array)
-    word_array.collect do |word|
+    anagrams = word_array.collect do |word|
       if word.match(/[word_array]/) == true
         word
       else
         return
       end
     end
+    anagrams.compact
   end
 end
