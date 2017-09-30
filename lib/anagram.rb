@@ -12,7 +12,6 @@ attr_accessor :word
       else
         return
       end
-      
     end
   end
 end
