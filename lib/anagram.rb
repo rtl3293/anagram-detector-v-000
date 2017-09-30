@@ -9,7 +9,7 @@ attr_accessor :word
     anagrams = []
     word_array.each do |word|
       if word.match(/[word_array]/) == true
-        word
+        anagrams << word
       else
         return
       end
