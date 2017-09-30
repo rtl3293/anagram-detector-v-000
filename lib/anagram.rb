@@ -1,2 +1,5 @@
 # Your code goes here!
-#learn/rspec --fail-fast
+class Anagram
+attr_accessor  :word
+  def initialize
+end 
