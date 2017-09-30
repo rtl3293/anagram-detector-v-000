@@ -7,7 +7,9 @@ attr_accessor :word
 
   def match(word_array)
     word_array.collect do |word|
-      word.match(/[word_array]/)
+      if word.match(/[word_array]/) == true
+        word
+      end
     end
   end
 end
