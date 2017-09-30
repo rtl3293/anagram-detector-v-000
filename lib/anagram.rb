@@ -6,14 +6,7 @@ attr_accessor :word
   end
 
   def match(word_array)
-    anagrams = []
-    word_array.each do |word|
-      if word.match(/[word_array]/) == true
-        anagrams << word
-      else
-        return
-      end
-    end
-    anagrams.compact
+    word_array.collect do |possible_anagrams|
+      possible_anagrams_makeup = word.split
   end
 end
