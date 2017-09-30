@@ -6,7 +6,8 @@ attr_accessor :word
   end
 
   def match(word_array)
-    anagrams = word_array.collect do |word|
+    anagrams = []
+    word_array.each do |word|
       if word.match(/[word_array]/) == true
         word
       else
