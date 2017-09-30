@@ -8,7 +8,7 @@ attr_accessor :word
   def match(word_array)
     word_makeup = @word.split.sort
     word_array.collect do |possible_anagrams|
-      possible_anagrams_makeup = possible_anagrams.split
-      if possible
+      possible_anagrams_makeup = possible_anagrams.split.sort
+      if possible_anagrams_makeup
   end
 end
