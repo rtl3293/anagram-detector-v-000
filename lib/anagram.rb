@@ -10,7 +10,7 @@ attr_accessor :word
     word_array.collect do |possible_anagrams|
       possible_anagrams_makeup = possible_anagrams.split.sort
       if possible_anagrams_makeup == word_makeup
-        return possible_anagrams
+        possible_anagrams
       end
     end
   end
