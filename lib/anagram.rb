@@ -5,4 +5,7 @@ attr_accessor :word
     @word = word
   end
 
+  def match(word_array))
+    word_array.match(/[word_array]/)
+  end
 end
