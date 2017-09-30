@@ -7,6 +7,6 @@ attr_accessor :word
 
   def match(word_array)
     word_array.collect do |possible_anagrams|
-      possible_anagrams_makeup = word.split
+      possible_anagrams_makeup = possible_anagrams.split
   end
 end
